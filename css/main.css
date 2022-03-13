@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../assets/images/bg\ with\ shoe\ edited\ in\ photoshop.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 810px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1290px;
+}
+
+.header {}
+
+.container {}
+
+.navbar {}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.itemTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 437px;
+}
+
+.logo {}
+
+.navigate {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.465em;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.icons {
+    margin-right: 47px;
+}
+
+.main {}
+
+.mainOne {}
+
+.box {
+    width: 269px;
+    position: absolute;
+    right: 245px;
+    top: 500px;
+}
+
+.orangeBox {
+    width: 74.25px;
+    height: 29.25px;
+    background: #EB0000;
+    border-radius: 9.75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 7.5px;
+}
+
+.bigOrangeBox {
+    display: flex;
+    justify-content: end;
+}
+
+.flexBox {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+    color: #E70000;
+    margin-right: 5px;
+}
+
+.name {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 113% */
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+}
+
+.mainTwo {
+    position: absolute;
+    right: 63px;
+    top: 351px;
+}
+
+.circle02 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.2;
+    margin-bottom: 11px;
+}
+
+.circle04 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.4;
+    margin-bottom: 11px;
+}
+
+.circle06 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.6;
+    margin-bottom: 11px;
+}
+
+.circle08 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+    margin-bottom: 11px;
+}
+
+.circle1 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 11px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.footer_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_item {
+    display: flex;
+    align-items: center;
+}
+
+.footer_item_tex {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.cros {}
+
+.box_white {}
+
+.linkOne {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding: 17px 30px;
+    background-color: white;
+    margin-right: 33px;
+}
+
+.link {
+    padding: 17px 30px;
+    border: 0.75px solid #FFFFFF;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.footer_title {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
+
+.footer_info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 156% */
+    color: #FFFFFF;
+    width: 333px;
+}
